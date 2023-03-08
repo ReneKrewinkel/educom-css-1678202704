@@ -1,0 +1,58 @@
+
+a:hover{color:pink}
+
+.button-container a{
+    width: 200px;
+    padding: 10px;
+    color: #FFF;
+    background-color: #F00;
+    margin: 30px;
+    
+
+    /* Rounding the corners */
+    border-radius: 10px;
+
+    /* Shadow generator */
+    -webkit-box-shadow: 8px 7px 46px 12px rgba(242,7,242,1);
+    -moz-box-shadow: 8px 7px 46px 12px rgba(242,7,242,1);
+    box-shadow: 8px 7px 46px 12px rgba(242,7,242,1);
+
+    /* get rid of the underline */
+    text-decoration: none;
+}
+
+.button-container a:hover{
+    background-color: #AF1F16;
+    text-decoration:none;
+}
+
+.button-container-gradient a{
+    width: 200px;
+    padding: 10px;
+    color: #FFF;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    margin: 30px;   
+
+        /* Shadow generator */
+        box-shadow: 8px 7px 46px 12px rgba(242,7,242,1);
+    }
+
+.button-container-gradient a:hover{
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    text-decoration:none;
+    transform: scale(3);
+}
+
+.button-container-3 a{
+    width: 200px;
+    padding: 10px;
+    color: #FFF;
+    background-color: #F00;
+    margin: 30px;
+}
+
+.button-container-3 a:hover{
+    transform: scale(1.2);
+}
