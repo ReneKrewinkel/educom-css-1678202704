@@ -1,0 +1,49 @@
+
+/* At the top of the page */
+:root {
+    /* FONTS */
+    --regular: "Arial";
+
+    /* COLORS */
+    --dark-brown: #402214;
+    --lighter-brown: #774231;
+    --lightest-brown: #aa4b1b;
+
+    --darker-red: #b31714;
+    --lighter-red: #dc3439;
+
+    --yellow: #ffff00;
+
+    --orange: orange;
+
+    --sky-blue: #87ceeb;
+
+    --green: rgb(74, 255, 29);
+
+    --blue: #0000ff;
+
+    --white: #FFF;
+    --black: #000;
+}
+
+/* Usage */
+
+h1 {
+    font-family: var(--regular);
+    color: var(--darker-red);
+}
+p {
+    padding: 50px;
+    border: 3px solid var(--yellow);
+    background-color: var(--green);
+    color: var(--lightest-brown);
+}
+
+h2 {
+    font-family: var(--regular);
+    color: var(--yellow);
+    font-size: 130px;
+    margin: 0px 0px 0px 0px;
+    padding: 200px;
+    background-color: var(--blue);    
+}
