@@ -21,3 +21,29 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+.cascading-parent {
+    font-weight: bold;
+    color: #FFF;
+}
+
+.cascading-child1 {
+    color: #FF0;
+    background-color: #000;
+    width: 200px;
+    height: 200px;
+}
+
+.cascading-child2 {
+    color:#9acd32;
+    background-color:#6a5acd;
+    width: 150px;
+    height: 150px;
+}
+
+.cascading-child3 {
+    color:#667e35;
+    background-color:#6b560a;
+    width: 100px;
+    height: 100px;
+}
