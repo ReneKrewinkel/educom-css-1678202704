@@ -1,0 +1,29 @@
+/* univisited link */
+a:link {color: red;
+}
+
+/* visited link */
+a:visited {color:green;
+}
+
+/* mouse over link */
+a:hover {color: hotpink;
+}
+
+/* selected link */
+a:active {color: blue;
+}
+
+p:hover {color: orange;}
+p:active {color: yellow;}
+
+picture:hover {background-color:blue;
+                width: 10000px;
+                height: 10000px;
+            }
+picture:hover {color:cadetblue;}
+picture:hover {}
+
+th:hover {color:darkgoldenrod;}
+td:hover {color:rgb(125, 238, 134);}
+th:active {color:yellowgreen;}
