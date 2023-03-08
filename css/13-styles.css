@@ -1,0 +1,158 @@
+html, body{
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+/* Begin header */
+.header{
+        background-color: transparent;
+        width: 100%;
+        height: 50px;
+        font-family: Arial, Helvetica, sans-serif ;
+        font-weight: bold;
+        position: absolute; 
+        top: 0; 
+        left: 0;
+        color:black; 
+}
+
+.logo {
+    list-style-type: none;
+    padding: 0px 0px;
+    float: left;
+  }
+
+.menu {
+    list-style-type: none;
+    padding: 0px 20px;
+    float: right;
+  }
+
+  /* End header */
+
+
+
+/* Begin body */
+.content{
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 400px;
+}
+
+
+.block-1 {
+    display: inline-block;
+    width: 30%;
+    height: 150px;
+    margin: 5px;
+    border: 0px solid transparent;
+    border-radius: 5%;
+    transition: all 0.3 ease;
+    background: url("https://res.klook.com/image/upload/Mobile/City/afmqgg5h0jl9wnr1dfmf.jpg");
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align:center;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+}
+
+.block-2 {
+    display: inline-block;
+    width: 30%;
+    height: 150px;
+    margin: 5px;
+    border: 0px solid transparent;
+    border-radius: 5%;
+    transition: all 0.3 ease;
+    background: url("https://www.belgio.info/wp-content/uploads/sites/7/bruxelles-parc-mont-des-arts.jpg");
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align:center;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.block-3 {
+    display: inline-block;
+    width: 30%;
+    height: 150px;
+    margin: 5px;
+    border: 0px solid transparent;
+    border-radius: 5%;
+    transition: all 0.3 ease;
+    background: url("https://i.natgeofe.com/n/874df281-d3e0-489a-98c0-6b840023b828/newyork_NationalGeographic_2328428.jpg");
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align:center;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+}
+
+.block-1:hover {
+    border: 0px  transparent;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    transform: scale(1.025); 
+}
+
+.block-2:hover {
+    border: 0px  transparent;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    transform: scale(1.025); 
+}
+
+.block-3:hover {
+    border: 0px  transparent;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    transform: scale(1.025); 
+}
+
+/* End body */
+
+
+/* Begin footer */
+.footer{
+        background-color: rgb(189, 185, 185);
+        color: white;
+        height: 80px;
+        font-family: Arial, Helvetica, sans-serif ;
+        position: absolute;
+        width: 100%;
+}
+
+
+.footer-1 {
+    display: inline-block;
+    float: left;
+    text-align:center;
+    line-height: 60px;
+    margin-left: 40px;
+    margin-top: 16px;
+}
+        
+.footer-2 {
+    display: inline-block;
+    float: right;
+    text-align:center;
+    line-height: 60px;
+    margin-right: 40px;
+    margin-top: 16px;
+}
+ /* End footer */
+
