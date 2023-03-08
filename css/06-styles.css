@@ -1,0 +1,33 @@
+
+
+a {
+    font-size: 22px;
+    color:#FD0;
+}
+
+.cascading-parent h2 {
+    color: rgb(0, 34, 255);
+}
+
+.cascading-parent a {
+    font-size: 32px;
+    color: #CCC;
+}
+
+.cascading-parent footer {
+    font-size: 32px;
+    color: #a9e20e;
+}
+
+footer {
+    font-size: 8px;
+    color: rgb(255, 0, 0);
+}
+
+p {
+    font-size: 16px;
+    color: rgb(151, 59, 171);
+    background-color: aqua;
+    width: 50px;
+    height: 18px;
+}
